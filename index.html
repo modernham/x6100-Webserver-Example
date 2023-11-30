@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>x6100 Website Demo</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Xiegu<span class="logo_colour">x6100WebsiteDemo</span></a></h1>
+          <h2>Yup, it's all on a ham radio!</h2>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="http://10.10.2.75/manuals">Manuals</a></li>
+          <li><a href="http://10.10.2.75/resources">Resources</a></li>
+		            <li><a href="http://10.10.2.75/software">Software</a></li>
+          <li><a href="#">Example Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down One</a></li>
+              </li>
+              <li><a href="#">Drop Down Three</a></li>
+              <li><a href="#">Drop Down Four</a></li>
+              <li><a href="#">Drop Down Five</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/1.png" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/2.png" alt="photo_two" /></li>
+            <li><img width="450" height="450" src="images/3.png" alt="photo_three" /></li>
+            <li><img width="450" height="450" src="images/4.jpg" alt="photo_four" /></li>
+            <li><img width="450" height="450" src="images/5.jpg" alt="photo_five" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>Welcome to the x6100 Website Demo</h1>
+        <p>This website is being hosted via python on an Xiegu x6100. You can check out the "Manuals" link up top do download some Xiegu Manuals from this x6100 as a POC</p>
+		<p>Also check out "Resources" for some handy amateur radio related charts and such. (All contained on the x6100)</p>
+        <h3>Important Links</h3>
+        <p>Please check out these external resources as well:</p>
+        <ul>
+          <li><a href="https://youtube.com/modernham">ModernHam Youtube Channel</a></li>
+          <li><a href="https://themodernham.com">TheModernHam Blog</a></li>
+          <li><a href="https://css3templates.co.uk/">This Website Designers Page</a></li>
+          <li><a href="https://radioddity.refr.cc/kn4mkb">Buy a x6100 (Referal Link)</a></li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; x6100 Website Demo | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
